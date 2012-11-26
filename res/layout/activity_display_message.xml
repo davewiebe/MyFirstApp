@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:apiKey="0cJFc8Ig7SwAATxLdEIrp4N3RUs2iYeyysbuAZg"
+        android:clickable="true" 
+        android:enabled="true"
+         />
+
+    <TextView
+        android:id="@+id/latText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" />
+    <TextView
+        android:id="@+id/lonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" />
+
+</LinearLayout>
